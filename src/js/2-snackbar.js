@@ -37,6 +37,7 @@ form.addEventListener('submit', event => {
         position: 'topRight',
         timeout: 5000,
         iconUrl: okIcon,
+        iconColor: '#fafafb',
         theme: 'dark',
       });
     })
@@ -54,6 +55,7 @@ form.addEventListener('submit', event => {
         position: 'topRight',
         timeout: 5000,
         iconUrl: iconError,
+        iconColor: '#fafafb',
         theme: 'dark',
       });
     });
