@@ -40,7 +40,7 @@
   color: #808080;
 }
 
-button {
+.timer-start {
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
@@ -57,22 +57,17 @@ button {
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
-/* button {
-    background-color: #cfcfcf;
-    color: #989898;
-} */
-
-button:hover,
-button:focus {
+.timer-start:hover,
+.timer-start:focus {
   background-color: #6c8cff;
 }
 
-button:disabled {
+.timer-start:disabled {
   background-color: #cfcfcf;
   color: #989898;
 }
 
-button:active {
+.timer-start:active {
   transform: scale(0.95);
 }
 
