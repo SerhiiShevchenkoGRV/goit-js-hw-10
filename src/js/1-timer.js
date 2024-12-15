@@ -26,7 +26,6 @@ const options = {
 
     if (currentDate >= selectedDates[0]) {
       startButton.disabled = true;
-      input.disabled = true;
       iziToast.show({
         title: 'Error',
         titleColor: '#fff',
